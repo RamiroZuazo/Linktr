@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    background-color: blueviolet;
+    height: 20%;
+
+    
+}
+.div2{
+    background-color: orange;
+    display:inline-block;
+    height: 60%;
+    width: 20%;
+
+}
+.div3{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 60%;
+    width: 80%;
+}
+
+.div4{
+    background-color: rgb(226, 43, 211);
+    height: 20%;
+    margin-top: -4px;
+}
+
+.div3 .f1{
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    border-radius: 50%;
+
+}
+
+.div1 .f2{
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: 50%;
+    left: 20px;
+    top: 18px;
+}
+
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    background-color: #0a0a0a; 
+    padding: 10px;
+}
+
+header p {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.principal a {
+    color: white;
+    text-decoration: none;
+}
+.principal a {
+    color: white;
+    text-decoration: none;
+    
+}.principal {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Para darle un área de clic más grande */
+    border-radius: 5px; /* Para redondear las esquinas del recuadro */
+    transition: background-color 0.3s, color 0.3s; /* Animación suave al hacer hover */
+}
+
+.principal:hover {
+    background-color: white; /* Fondo blanco cuando se pasa el cursor */
+    color: black; /* Texto negro cuando se pasa el cursor */
+}
