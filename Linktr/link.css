@@ -17,33 +17,33 @@ body {
 
 .profile-section {
     text-align: center;
-    margin-bottom: 30px; /* Incrementa el espacio inferior */
+    margin-bottom: 30px; 
 }
 
 .profile-pic {
-    width: 120px; /* Agranda la imagen de perfil */
+    width: 120px;
     height: 120px;
     border-radius: 50%;
     margin-bottom: 15px;
 }
 
 h1 {
-    font-size: 2.5rem; /* Agranda el tamaño del título */
+    font-size: 2.5rem; 
     margin-bottom: 10px;
 }
 
 .profession {
-    font-size: 1.4rem; /* Agranda el tamaño de la profesión */
+    font-size: 1.4rem;
     color: #333;
     margin-bottom: 20px;
 }
 
 .social-links a {
-    margin: 0 15px; /* Aumenta el margen entre los enlaces */
+    margin: 0 15px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 1.2rem; /* Agranda el tamaño de las fuentes en los enlaces */
+    font-size: 1.2rem; 
 }
 
 .links-section {
@@ -58,7 +58,7 @@ h1 {
     background-color: #333;
     color: #fff;
     padding: 15px 25px;
-    margin: 5px 0; /* Reduce el espacio vertical entre los enlaces */
+    margin: 5px 0; 
     text-decoration: none;
     border-radius: 30px;
     width: 700px;
@@ -75,7 +75,7 @@ h1 {
 
 
 .link-icon {
-    width: 35px; /* Agranda el icono */
+    width: 35px; 
     height: 35px;
     border-radius: 50%;
     margin-left: 15px; 
