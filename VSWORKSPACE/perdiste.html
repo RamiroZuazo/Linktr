@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Perdiste!</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* Organiza los elementos en columna */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000; /* Fondo negro */
+        }
+
+        header {
+            width: 100%;
+            position: absolute; /* Fija el menú en la parte superior */
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center; 
+            gap: 20px; 
+            background-color: #353333; 
+            padding: 10px;
+        }
+
+        header p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .principal a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .principal {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px; /* Para darle un área de clic más grande */
+            border-radius: 5px; /* Para redondear las esquinas del recuadro */
+            transition: background-color 0.3s, color 0.3s; /* Animación suave al hacer hover */
+        }
+
+        .principal:hover {
+            background-color: white; /* Fondo blanco cuando se pasa el cursor */
+            color: black; /* Texto negro cuando se pasa el cursor */
+        }
+
+        .container {
+            flex-grow: 1; /* Hace que el contenido ocupe el espacio disponible */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: #ff0000; /* Rojo brillante */
+            font-size: 5rem;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <p>
+            <a href="identikitV2.html" class="principal">Página Principal</a>
+        </p>
+    </header>
+    
+    <div class="container">
+        <h1>¡PERDISTE!</h1>
+    </div>
+
+</body>
+</html>

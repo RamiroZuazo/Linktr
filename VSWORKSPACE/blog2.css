@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    height: 100vh; 
+}
+
+.sidebar {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    padding-left: 130px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+
+.sidebar h1 {
+    font-size: 1.4em;
+}
+
+.sidebar nav {
+    margin-top: 450px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 5em;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    margin: 0; 
+    padding: 0; 
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    overflow-y: auto; 
+}
+
+.content article {
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-right: 85px;
+}
+
+.content article a {
+    font-size: 1.65em;
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.content article p {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 0;
+}
+
+.content header {
+    margin: 50px;
+    font-size: 1.38em;
+    padding-right: 30px;
+}
+
+.content .content2 {
+    margin: 50px;
+    padding-right: 30px;
+}
+
+.content header img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.content .content2 .list {
+    color: #000000;
+}
+
+.content .content2 p {
+    margin: 0;
+    margin-bottom: 30px; 
+    font-size: 1.2em;
+    color: #151515;
+    line-height: 1.5;
+}
+
+.content .content2 .section {
+    margin-bottom: 20px;
+    text-align: justify; 
+}
+
+@media (max-width: 1200px) {
+    .sidebar {
+        padding-left: 100px;
+    }
+
+    .sidebar nav {
+        margin-top: 300px; 
+    }
+
+    .sidebar nav ul li a {
+        font-size: 4em; 
+    }
+
+    .content article a {
+        font-size: 1.5em; 
+    }
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        padding-left: 50px;
+    }
+
+    .sidebar nav {
+        margin-top: 200px; 
+    }
+
+    .sidebar nav ul li a {
+        font-size: 3em; 
+    }
+
+    .content article a {
+        font-size: 1.3em;
+    }
+
+    .content header {
+        margin: 30px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .sidebar {
+        width: 100%; 
+        padding: 10px;
+        height: 30%;
+    }
+    
+    .content {
+        width: 100%; 
+        padding: 10px;
+        height: 70%;
+
+    }
+    .sidebar nav {
+        margin-top: 10px;
+    }
+
+    .sidebar nav ul li a {
+        font-size: 2.5em; 
+    }
+
+    .content article a {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar nav {
+        margin-top: 100px; 
+    }
+
+    .sidebar nav ul li a {
+        font-size: 2em;
+    }
+
+    .content article {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    .content article a {
+        font-size: 1em;
+    }
+
+    .content header {
+        margin: 20px;
+        font-size: 1em;
+    }
+}
+.contact-form {
+    max-width: 700px;
+    margin: 50px auto;
+    font-size: 1.1em; 
+    line-height: 1.5;
+    color: #151515;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submit-button {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #333;
+}
+
